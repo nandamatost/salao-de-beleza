@@ -1,0 +1,300 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+
+}
+
+header {
+	background-color: rgba(255, 182, 193);
+	color: #fff;
+	font-family: arial;
+	width: 100%;
+	position: absolute;
+}
+
+
+h3 {
+	font-size: 2.6rem;
+	font-family: arial;
+	margin: 0;
+	padding: 5px;
+
+}
+
+h2 {
+	font-size: 1.6rem;
+	font-family: arial;
+	margin: 10px;
+	padding: 6px;
+	text-align: center;
+
+}
+
+h4 {
+	font-size: 1.4rem;
+	font-family: arial;
+	margin: 0;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+h5 {
+	font-size: 1.4rem;
+	font-family: arial;
+	margin: 0;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+body {
+	background-color: rgba(220, 220, 220);
+}
+
+nav {
+	text-align: right;
+	margin-top: 10px;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 1.6rem;
+	margin-right: 2%;
+	word-spacing: 10px;
+}
+
+@media(min-width: 320px) and (max-width: 450px) {
+
+	nav {
+		text-align: justify;
+		margin-top: 10px;
+		font-weight: bold;
+		font-family: arial;
+		font-size: 1.6rem;
+		word-spacing: 15px;
+	}
+
+}
+
+a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 1.0);
+	transition: all 300ms ease-in-out;
+}
+
+.contato {
+	background-color: rgba(255, 182, 193);
+	width: 16rem;
+	height: 12rem;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	margin-top: 3%;
+	z-index: 1;
+	border-radius: 30px;
+	border: solid #fff;
+}
+
+.compre {
+	background-color: rgba(199, 21, 133);
+	width: 35%;
+	height: 11rem;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	margin-top: 3%;
+	z-index: 1;
+	border-radius: 30px;
+	border: solid #fff;
+}
+
+
+h5 {
+	font-family: arial;
+	text-align: center;
+	padding: 1px;
+	font-size: 1.9rem;
+}
+
+button {
+	font-family: arial;
+	padding: 5px;
+	font-size: 2rem;
+	background-color: rgba(199, 21, 133);
+	color: #fff;
+	border: solid;
+	border-radius: 20px;
+	width: 80%;
+}
+
+footer {
+	font-family: arial;
+	color: #fff;
+	background-color: rgba(255, 182, 193);
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+
+}
+
+.texto-footer {
+	text-align: center;
+	font-family: arial;
+	padding-top: 10px;
+	font-size: 1.6rem;
+	padding-bottom: 10px;
+}
+
+.container {
+	display: block;
+	background-color: rgba(220, 220, 220);
+	width: 95%;
+	box-shadow: 0.1px 0.1px 0.2px #000;
+	margin: 0 auto;
+	max-width: 90%;
+	max-height: 90%;
+	min-width: 0px;
+	min-height: 0px;
+	margin-top: 40px;
+
+
+}
+
+p {
+	font-family: arial;
+	text-align: center;
+	padding: 10px;
+	font-size: 1.6rem;
+}
+
+#container-capa {
+	width: 1350px;
+	height: 500px;
+}
+
+@media(min-width: 320px) and (max-width: 450px) {
+	#container-capa {
+		width: 450px;
+		height: 150px;
+		overflow: auto;
+	}
+}
+
+.imagem-capa {
+	width: 1350px;
+	height: 500px;
+	object-fit: fill;
+}
+
+@media(min-width: 320px) and (max-width: 450px) {
+	.imagem-capa {
+		width: 450px;
+		height: 180px;
+	}
+}
+
+#formulario {
+	background-color: rgba(219, 112, 147);
+	color: #fff;
+
+}
+
+.formulario-contato {
+	font-family: arial;
+	font-size: 1.8rem;
+	padding: 10px;
+	text-align: left;
+	margin-left: 5%;
+	font-weight: bold;
+	color: #fff;
+
+}
+
+input {
+	font-family: sans-serif;
+	font-size: 1.7rem;
+	padding: 5px;
+	color: #000000;
+}
+
+.dados-formulario {
+	width: 60%;
+}
+
+.map-responsive {
+	overflow: hidden;
+	padding-bottom: 12%;
+	position: relative;
+	height: 0;
+}
+
+.map-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+#grid-container {
+	margin-top: 5px;
+	background-color: rgba(220, 220, 220);
+	padding: 10px;
+	color: #000;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 3px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.grid div {
+	background-color: rgba(220, 220, 220);
+	font-family: candara, arial;
+	text-align: center;
+	font-size: 1.6rem;
+	padding: 1px;
+}
+
+.imagem-grid {
+	width: 18rem;
+	height: 18rem;
+	border-radius: 20px;
+}
+
+.imagem-grid {
+	transition: 300ms ease-in-out;
+}
+
+.imagem-grid:hover {
+	transform: scale(1.3);
+}
+
+#Inicio {
+	padding-top: 100px;
+}
+
+.carousel-indicators {
+	display: flex;
+	align-items: flex-end;
+}
+
+.carousel-indicators li {
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+	background-color: #D9D9D9;
+}
+
+.carousel-indicators li.active {
+	background-color: #1E1E1E;
+}
+
